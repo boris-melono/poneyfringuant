@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/membre/frontend/membre.css">
+    <title>Document</title>
+</head>
+<body>
+    Result Skip Results Iframe
+<div class="wrapper">
+  
+  
+  <div class="student-details expanded">
+    <div class="gravatar">
+      <img src="/assets/PROFIL.jpg" width="200" height"200" />
+    </div>
+    <h2 class="student-name">Boris Melono</h2>
+    <p class="student-email">bmelono@mondomaine.com</p>
+  </div>
+  
+  <div class="forms">
+    <div class="tabs edit-profile">
+      <h3>Editer le Profile</h3>
+    </div>
+    <div class="tab-content edit-profile-form-wrap">
+      <!--  --><form class="edit-profile-form">
+        <div class="form-control first-name">
+          <label for="first-name">Nom&#58;</label>
+          <input type="text" class="textbox" id="first-name" value="John">
+        </div>
+        <div class="form-control first-name">
+          <label for="last-name">Prénom&#58;</label>
+          <input type="text" class="textbox" id="last-name" value="Doe">
+        </div>
+        <div class="form-control email">
+          <label for="email">E-mail&#58;</label>
+          <input type="text" class="textbox" id="email" value="john.doe@somedomain.com">
+        </div>
+        <div class="form-buttons">
+          <button type="submit" class="primary-btn" value="Update Profile">Mis à jour de mon Profile</button>
+          <button type="button" class="secondary-btn cancel" value="Cancel">Cancel</button>
+        </div>
+      </form>
+    </div>
+    <div class="tabs change-password">
+      <h3>Changer mot de passe</h3>
+    </div>
+    <div class="tab-content change-password-form-wrap">
+      <form class="edit-profile-form">
+        <div class="form-control first-name">
+          <label for="current-password">Changer de mot de passe&#58;</label>
+          <input type="text" class="textbox" id="current-password">
+        </div>
+        <div class="form-control first-name">
+          <label for="new-password">Nouveau mot de passe&#58;</label>
+          <input type="text" class="textbox" id="new-password">
+        </div>
+        <div class="form-control email">
+          <label for="confirm-password">Confirmer le mot de passe&#58;</label>
+          <input type="text" class="textbox" id="confirm-password">
+        </div>
+        <div class="form-buttons">
+          <button type="submit" class="primary-btn" value="Change Password">Changer de mot de passe</button>
+       <button type="button" class="secondary-btn cancel" value="Cancel">Cancel</button> 
+        </div>
+        <script type="text/javascript" src="/membre/frontend/membre.js"></script>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
